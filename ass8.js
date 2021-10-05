@@ -7,6 +7,7 @@ name("Outa Patrick",57);
 name("Apio Mercy",23);
 name("Etii Faith",45);
 
+// calling the function
 function choose(Gender) {
   var fruit =  gender("female");
   console.log("This is a " + gender);
@@ -16,9 +17,12 @@ function gender(gender) {
 }
 choose(gender);
 
+//arrow function
 let Country =(first,second) =>  results = first + " " + second;
 console.log(country("Sierre","Leon"));
 
+
+//loop
 for(let i=0; i < 19 ; i++){
   console.log("i love uganda" );
 }
